@@ -1,0 +1,61 @@
+.content {
+    vertical-align: middle;
+    text-wrap: wrap;
+}
+
+.neon {
+    color: #64ffda;
+    padding: 0;
+}
+
+.btn {
+    padding: 20px;
+}
+
+.contact {
+    margin: 72px 0;
+}
+
+h1 {
+    color: #64ffda;
+    margin: 0 0 20px 3px;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+h2, h3 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 1.1;
+    margin: 0;
+}
+
+@media (max-width: 769px) {
+    h2, h3 {
+        font-size: 40px;
+    }
+}
+
+h2 {
+    color: #ccd6f6;
+}
+
+h3 {
+    color: #8892b0;
+}
+
+p {
+    margin: 50px 0;
+    text-wrap: wrap;
+}
+
+.container {
+    padding: 5% 15px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.banner-description {
+    max-width: 600px;
+}

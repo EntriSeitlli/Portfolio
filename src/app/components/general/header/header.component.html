@@ -1,0 +1,28 @@
+<div class="header-container">
+    <div class="navbar-logo">
+        My_Portfolio
+    </div>
+    <nav class="navbar">
+        <ul class="navbar-links">
+            <li><a routerLink="/"><span class="num">01. </span><span class="underline">About me</span></a></li>
+            <li><a routerLink="/about"><span class="num">02. </span><span class="underline">Experience</span></a></li>
+            <li><a routerLink="/about"><span class="num">03. </span><span class="underline">Work</span></a></li>
+            <li><a routerLink="/about"><span class="num">04. </span><span class="underline">Testimonial</span></a></li>
+            <li><a routerLink="/contact"><span class="num">05. </span><span class="underline">Contact</span></a></li>
+            <li><a class="btn"> Resume </a></li>
+        </ul>
+    </nav>
+    <div class="menu-wrapper">
+        <div class="hamburger-menu" [class.animate]="responsiveMenuVisible" (click)="responsiveMenuVisible = !responsiveMenuVisible"></div>
+    </div>
+    <div class="navbar-aside" [ngStyle]="{ 'right': !responsiveMenuVisible ? '-700px' : '5px' }">
+        <ul class="navbar-links">
+            <li><a routerLink="/"><span class="num">01. </span><span class="underline">About me</span></a></li>
+            <li><a routerLink="/about"><span class="num">02. </span><span class="underline">Experience</span></a></li>
+            <li><a routerLink="/about"><span class="num">03. </span><span class="underline">Work</span></a></li>
+            <li><a routerLink="/about"><span class="num">04. </span><span class="underline">Testimonial</span></a></li>
+            <li><a routerLink="/contact"><span class="num">05. </span><span class="underline">Contact</span></a></li>
+            <li><a class="btn"> Resume </a></li>
+        </ul>
+    </div>
+</div>

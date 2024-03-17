@@ -1,0 +1,65 @@
+.content {
+    vertical-align: middle;
+    text-wrap: wrap;
+}
+
+.underline {
+    color: #64ffda;
+    padding: 0;
+}
+
+.container {
+    padding: 5% 15px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-me {
+    max-width: 600px;
+}
+
+h3 {
+    color: white;
+}
+
+span {
+    color: #64ffda;
+}
+
+.img-container {
+    display: flex;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    z-index: 1;
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.img-border {
+    outline: 4px solid #64ffda;
+    outline-offset: -100px;
+    z-index: 0;
+    position: relative;
+    border: 20px solid transparent;
+    border-width: 60px 120px 120px 60px;
+    margin: -50px 0 0 -50px;
+}
+
+
+@media (max-width: 650px) {
+    img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .img-border {
+        all: unset
+    }
+}
